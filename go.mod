@@ -21,7 +21,7 @@ require (
 	github.com/docker/go-connections v0.4.0
 	github.com/fatih/color v1.13.0
 	github.com/go-redis/redis/v8 v8.11.5
-	github.com/golang/protobuf v1.5.2
+	github.com/golang/protobuf v1.5.4
 	github.com/google/go-containerregistry v0.7.1-0.20211214010025-a65b7844a475
 	github.com/google/uuid v1.3.0
 	github.com/google/wire v0.5.0
@@ -44,7 +44,7 @@ require (
 	golang.org/x/exp v0.0.0-20220407100705-7b9b53b0aca4
 	golang.org/x/sys v0.0.0-20220412211240-33da011f77ad // indirect
 	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1
-	google.golang.org/protobuf v1.28.0
+	google.golang.org/protobuf v1.33.0
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b
 	k8s.io/utils v0.0.0-20210930125809-cb0fa318a74b
 )
