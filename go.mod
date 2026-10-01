@@ -1,9 +1,9 @@
 module github.com/aquasecurity/trivy
 
-go 1.18
+go 1.25
 
 require (
-	github.com/CycloneDX/cyclonedx-go v0.5.2
+	github.com/CycloneDX/cyclonedx-go v0.12.0
 	github.com/Masterminds/sprig/v3 v3.2.2
 	github.com/NYTimes/gziphandler v1.1.1
 	github.com/aquasecurity/bolt-fixtures v0.0.0-20200903104109-d34e7f983986
@@ -36,7 +36,7 @@ require (
 	github.com/package-url/packageurl-go v0.1.1-0.20220203205134-d70459300c8a
 	github.com/samber/lo v1.19.0
 	github.com/spf13/afero v1.8.1 // indirect
-	github.com/stretchr/testify v1.7.1
+	github.com/stretchr/testify v1.12.1
 	github.com/testcontainers/testcontainers-go v0.12.0
 	github.com/twitchtv/twirp v8.1.2+incompatible
 	github.com/urfave/cli/v2 v2.5.1
@@ -88,7 +88,6 @@ require (
 	github.com/containerd/stargz-snapshotter/estargz v0.10.1 // indirect
 	github.com/containerd/typeurl v1.0.2 // indirect
 	github.com/cpuguy83/go-md2man/v2 v2.0.1 // indirect
-	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f // indirect
 	github.com/dimchansky/utfbom v1.1.1 // indirect
 	github.com/docker/cli v20.10.11+incompatible // indirect
@@ -146,7 +145,6 @@ require (
 	github.com/opencontainers/runc v1.1.0 // indirect
 	github.com/owenrumney/squealer v0.3.2 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
-	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/rcrowley/go-metrics v0.0.0-20200313005456-10cdbea86bc0 // indirect
 	github.com/remyoudompheng/bigfft v0.0.0-20200410134404-eec4a21b6bb0 // indirect
 	github.com/rivo/uniseg v0.2.0 // indirect
@@ -157,7 +155,7 @@ require (
 	github.com/sirupsen/logrus v1.8.1 // indirect
 	github.com/spdx/tools-golang v0.3.0
 	github.com/spf13/cast v1.4.1 // indirect
-	github.com/stretchr/objx v0.3.0 // indirect
+	github.com/stretchr/objx v0.5.3 // indirect
 	github.com/tmccombs/hcl2json v0.3.4 // indirect
 	github.com/ulikunitz/xz v0.5.8 // indirect
 	github.com/vbatts/tar-split v0.11.2 // indirect
@@ -200,6 +198,8 @@ require (
 )
 
 require github.com/mitchellh/hashstructure/v2 v2.0.2
+
+require go.yaml.in/yaml/v3 v3.0.5 // indirect
 
 // To resolve CVE-2022-23648
 replace github.com/containerd/containerd v1.5.9 => github.com/containerd/containerd v1.5.10
